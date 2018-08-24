@@ -1,0 +1,155 @@
+
+
+/****************（01海豚村One）headOne****************/
+.haitun .head_Topone {
+    height: 30px;
+    background: #FAFAFA;
+    text-align: center;
+    line-height: 30px;
+    color: #333333;
+    border-bottom: 1px solid #eeeeee;
+    font-size: 12px;
+  }
+  
+  .haitun .head_Topone .ht_container {
+    height: 30px;
+  }
+  
+  /*-----（honeleft）-------*/
+  .haitun .head_Topone .honeleft {
+    float: left;
+    height: 30px;
+    /* background: lavenderblush; */
+  }
+  
+  .haitun .head_Topone .honeleft a {
+    color: #ff8a00;
+  }
+  
+  /*-----（honeright）-------*/
+  .haitun .head_Topone .honeright {
+    float: right;
+    /* background: lavender; */
+  }
+  .haitun .head_Topone .honeright ul li {
+    float: left;
+  }
+  
+  .haitun .head_Topone .honeright ul li a {
+    padding: 0px 12px;
+    height: 16px;
+    display: inline-block;
+    color: #333333;
+    border-right: 2px solid #cccccc;
+    line-height: 16px;
+  }
+  
+
+
+  /****************（02海豚村Two）headTwo****************/
+  .haitun .headTwo {
+    height: 108px;
+    /* background: rgb(180, 226, 180); */
+    padding: 19px 0px 26px 0px;
+    font-size: 12px;
+  }
+  
+  .haitun .headTwo .ht_container {
+    height: 63px;
+  }
+  
+  /*------two-one------*/
+  .haitun .headTwo .two-one {
+    width: 303px;
+    float: left;
+    height: 63px;
+  }
+  /*------two-two------*/
+  .haitun .headTwo .two-two {
+    /* background: lemonchiffon; */
+    width: 294px;
+    float: left;
+    height: 63px;
+    line-height: 63px;
+    margin-left: 66px;
+  }
+  
+  .haitun .headTwo .two-two li {
+    float: left;
+    height: 63px;
+    position: relative;
+    padding-left: 30px;
+    margin-left: 10px;
+  }
+  
+  .haitun .headTwo .two-two li a span {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/indexImg/indexfw.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0px;
+    top: 17px;
+  }
+  
+  .haitun .headTwo .two-two li:nth-child(2) a span {
+    background-position: -30px 0px;
+  }
+  
+  .haitun .headTwo .two-two li:nth-child(3) a span {
+    background-position: -60px 0px;
+  }
+  
+  /* .haitun .headTwo .two-two li:nth-child(1) a {
+    color: #57c4eb;
+  } */
+  
+  .haitun .headTwo .two-two li:nth-child(2) a {
+    color: #ff67c1;
+  }
+  
+  .haitun .headTwo .two-two li:nth-child(3) a {
+    color: #917cff;
+  }
+  
+  /*------two-three------*/
+  .haitun .headTwo .two-three {
+    float: left;
+    width: 385px;
+    background: lightcyan;
+    text-align: center;
+    margin: 16px 0px 0px 13px;
+  }
+  
+  /*------two-four------*/
+  .haitun .headTwo .two-four {
+    background: #F8F8F8;
+    width: 96px;
+    height: 34px;
+    float: left;
+    margin: 16px 0px 0px 10px;
+    text-align: center;
+    line-height: 34px;
+   position: relative;
+
+  }
+
+  .haitun .headTwo .two-four i {
+    font-size:26px;
+  }
+
+
+  .haitun .headTwo .two-four .count{
+    position: absolute;
+    display: block;
+    width: 30px;
+    height:20px;
+    border-radius: 6px;
+    background: #FF5555;
+    top:-16px;
+    left: 12px;
+    text-align: center;
+    line-height: 20px;
+    color:#FFFFFF;
+   }

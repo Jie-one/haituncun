@@ -1,0 +1,149 @@
+
+.car .bbb{
+    height: 500px;
+    border:2px solid blue;
+}
+
+
+.car .headTwo .two_wuliu {
+  float: right;
+}
+
+/***************（海豚村03）购物车****************/
+.car .car_gwc {
+  background: #f5f5f5;
+  padding-top: 60px;
+  padding-bottom:30px;
+}
+
+/*---------01（购物车）--------*/
+.car .car_gwc .gwc_top {
+  height: 26px;
+  border-bottom: 2px solid #00a4ed;
+  background: lightblue;
+}
+
+.car .car_gwc .gwc_top p {
+  height: 26px;
+  width: 80px;
+  background: #00a4ed;
+  color: #ffffff;
+  border-radius: 8px;
+  line-height: 26px;
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 2px solid #00a4ed;
+}
+
+/*---------02（购物车商品）--------*/
+.car .car_gwc table {
+  background: lightpink;
+  width: 1190px;
+  height: 100%;
+}
+
+.car .car_gwc table tr {
+  /* background: #FFFFFF; */
+  background: lightcyan;
+}
+
+.car .car_gwc table tr th .checkAll {
+  height: 16px;
+  width: 16px;
+}
+
+/*----------【thead】-------*/
+.car .car_gwc table thead tr {
+  /* background: #FFFFFF; */
+  height: 40px;
+  background: lightcyan;
+}
+
+.car .car_gwc table thead {
+  height: 40px;
+}
+
+/*----------【tbody】-------*/
+.car .car_gwc table tbody tr {
+  background: lightpink;
+  border-bottom: 1px dashed gray;
+}
+
+.car .car_gwc table tbody tr .product {
+  height: 80px;
+  width: 400px;
+}
+
+.car .car_gwc table tbody tr .product .left {
+  border: 1px solid #f5f5f5;
+  float: left;
+  margin-right: 6px;
+}
+
+.car .car_gwc table tbody tr .product .left img {
+  height: 80px;
+  width: 80px;
+}
+
+/*----------【dvfoot】-------*/
+.car .car_gwc .dvfoot {
+  height: 70px;
+  margin-top: 20px;
+  background: #ffffff;
+}
+
+.car .car_gwc .dvfoot ul li {
+  float: left;
+  margin-left: 15px;
+  padding-top: 20px;
+
+}
+
+/*-------（左）------*/
+.car .car_gwc .dvfoot .fotleft {
+  float: left;
+  width: 405px;
+  height: 70px;
+  background: lemonchiffon;
+}
+
+
+/*-------（右）------*/
+.car .car_gwc .dvfoot .fotright {
+  float: right;
+  /* width: 520px; */
+  height: 70px;
+  background: lightcyan;
+}
+
+
+.car .car_gwc .dvfoot .fotright li{
+    float: left;
+}
+
+.car .car_gwc .dvfoot .fotright .aa span {
+    color: #FF4444;
+    font-weight: bold;
+    font-size: 16px;
+    
+  }
+  .car .car_gwc .dvfoot .fotright .aa .nbsp {
+    margin-right:16px;
+    
+  }
+
+
+   .car .car_gwc .dvfoot .fotright .jiesuan p{
+    width:100px;
+    height: 48px;
+    text-align: center;
+    line-height: 48px;
+    background: #FF4444;
+    font-size: 18px;
+    color: #FFFFFF;
+     
+   }
+ 
+ 
+
+  

@@ -1,0 +1,287 @@
+
+
+/****************（03海豚村Three）三级导航****************/
+.haitun .htnav {
+    height: 39px;
+    background: #0099E6;
+  }
+  
+  .haitun .htnav .ht_container {
+    height: 39px;
+  }
+  
+  /*-----一级导航------*/
+  .haitun .htnav .tab1 .tb1li {
+    float: left;
+    /*相对定位*/
+    position: relative;
+    /* border-right: 1px solid black; */
+  }
+  
+  /*----（一级导航A）-----*/
+  .haitun .htnav .tab1 .tb1li .tb1a {
+    font-size: 14px;
+    line-height: 39px;
+    color: #ffffff;
+  }
+  
+  .haitun .htnav .tab1 .tab1lia {
+    width: 220px;
+    height: 39px;
+    background: #0086d4;
+  }
+  
+  /*----（一级导航B）-----*/
+  .haitun .htnav .tab1 .tab1lib {
+    width: 770px;
+    height: 39px;
+    background: #0099e6;
+  }
+  
+  .haitun .htnav .tab1 .tab1lib ul li {
+    float: left;
+  }
+  
+  .haitun .htnav .tab1 .tab1lib a {
+    padding: 0px 22px;
+    /* border-left: 1px solid red; */
+  }
+  
+  /*---欧洲（01）---*/
+  .haitun .htnav .tab1 .tab1lib ul .oz {
+    position: relative;
+    height: 39px;
+  }
+  
+  .haitun .htnav .tab1 .tab1lib ul .oz:hover .dvoz {
+    display: block;
+  }
+  
+  /*---欧洲（02）---*/
+  .haitun .htnav .tab1 .tab1lib ul .oz .dvoz {
+    position: absolute;
+    width: 210px;
+    height: 144px;
+    padding-left: 15px;
+    right: -118px;
+    background: #ffffff;
+    display: none;
+  }
+  
+  .haitun .htnav .tab1 .tab1lib ul .oz .dvoz dl {
+    height: 72px;
+    border-bottom: 2px solid #dfdfd0;
+  }
+  
+  .haitun .htnav .tab1 .tab1lib ul dl dt {
+    height: 30px;
+    list-style: 30px;
+    color: #0099e6;
+  }
+  
+  .haitun .htnav .tab1 .tab1lib ul .oz .dvoz dl a {
+    color: #555555;
+  }
+  
+  /*---澳洲（01）---*/
+  .haitun .htnav .tab1 .tab1lib ul .aozhou {
+    position: relative;
+    height: 39px;
+  }
+  
+  /*---澳洲（02）---*/
+  .haitun .htnav .tab1 .tab1lib ul .aozhou .dvaozhou {
+    position: absolute;
+    height: 84px;
+    width: 210px;
+    padding-left: 15px;
+    right: -118px;
+    background: #ffffff;
+    display: none;
+  }
+  
+  .haitun .htnav .tab1 .tab1lib ul .aozhou:hover .dvaozhou {
+    display: block;
+  }
+  
+  .haitun .htnav .tab1 .tab1lib ul .aozhou .dvaozhou dl a {
+    color: #555555;
+  }
+  
+  /*---亚洲（01）---*/
+  
+  .haitun .htnav .tab1 .tab1lib ul .yazhou {
+    position: relative;
+    height: 39px;
+  }
+  
+  .haitun .htnav .tab1 .tab1lib ul .yazhou .dvyazhou {
+    position: absolute;
+    height: 60px;
+    width: 210px;
+    padding-left: 15px;
+    right: -118px;
+    background: #ffffff;
+    display: none;
+  }
+  
+  .haitun .htnav .tab1 .tab1lib ul .yazhou:hover .dvyazhou {
+    display: block;
+  }
+  
+  .haitun .htnav .tab1 .tab1lib ul .yazhou .dvyazhou dl a {
+    color: #555555;
+  }
+  
+  /*----（一级导航C）银联全球直购平台-----*/
+  .haitun .htnav .tab1 .tab1lic {
+    width: 200px;
+    height: 39px;
+    background: #008ee0;
+    /*（一级导航）银联全球直购平台--->相对定位*/
+    position: relative;
+  }
+  
+  .haitun .htnav .tab1 .tab1lic .tb1a span {
+    font-size: 20px;
+  }
+  
+  /*----（一级导航银联全球直购平台）-----*/
+  .haitun .htnav .tab1 .tab1lic .tab1lic_ul {
+    /*（一级导航银联全球直购平台）--->绝对定位*/
+    position: absolute;
+    top: 39px;
+    right: 0px;
+    width: 200px;
+    height: 420px;
+    background: #f8f8f8;
+    z-index: 10;
+
+    /* display:none; */
+
+  }
+  
+  .haitun .htnav .tab1 .tab1lic .tab1lic_ul a {
+    height: 210px;
+    width: 200px;
+    display: block;
+  }
+  .haitun .htnav .tab1 .tab1lic .tab1lic_ul a img {
+    height: 206px;
+    width: 200px;
+  }
+  
+  .haitun .htnav .tab1 .tab1lic .tab1lic_ul .lia {
+    margin-bottom: 2px;
+  }
+  
+  /*-----二级导航------*/
+  .haitun .htnav .tab1 .tb1li .tab2 {
+    /* padding-left: 15px; */
+    width: 220px;
+    height: 420px;
+    background: #f1fafd;
+    /*二级导航--->绝对定位*/
+    position: absolute;
+    left: 0;
+    top: 39px;
+    z-index:10;
+
+    /* display:none; */
+  }
+  
+  .haitun .htnav .tab1 .tb1li .tab2 .tab2li .iconfont h2 {
+    color: #5292d0;
+    margin-bottom: 6px;
+    font-size: 16px;
+  }
+  
+  .haitun .htnav .tab1 .tb1li .tab2 .tab2li .tab2div p a {
+    color: #666666;
+  }
+  
+  .haitun .htnav .tab1 .tb1li .tab2 .tab2li .tab2div {
+    height: 60px;
+    padding-top: 10px;
+    /* width: 180px; */
+    padding-left: 30px;
+    border-bottom: 2px solid #e6e6e6;
+    position: relative;
+    font-size: 12px;
+  }
+  
+  .haitun .htnav .tab1 .tb1li .tab2 .tab2li .tab2div span {
+    position: absolute;
+    left: 8px;
+    top: 8px;
+  }
+  
+  /*-----三级导航------*/
+  .haitun .htnav .tab1 .tb1li .tab2 .tab2li .tab3 {
+    /* width: 970px; */
+    width: 770px;
+    height: 420px;
+    padding: 20px 30px 0px 30px;
+    /*三级导航--->绝对定位*/
+    position: absolute;
+    left: 220px;
+    top: 0;
+  }
+  
+  /*---------实现鼠标移入移出效果---------*/
+  
+  .haitun .htnav .tab1 .tab2 .tab2li:hover,
+  .category {
+    background: #ffffff;
+  }
+  /* 
+  .haitun .htnav .tab1 .tab2 .tab2lia:hover .tab2div{
+    border-left: 4px solid rgb(248, 152, 152);
+  } */
+  
+  .haitun .htnav .tab1 .tab2 .tab2lia:hover .category01 {
+    display: block;
+  }
+  
+  /* .haitun .htnav .tab1 .tb1li .tab2 .tab2lib:hover .tab2div{
+    border-left: 4px solid rgb(14, 204, 14);
+  } */
+  
+  .haitun .htnav .tab1 .tb1li .tab2 .tab2lib:hover .category02 {
+    display: block;
+  }
+  
+  /* .haitun .htnav .tab1 .tb1li .tab2 .tab2lic:hover .tab2div{
+    border-left: 4px solid rgb(243, 84, 222);
+  } */
+  
+  .haitun .htnav .tab1 .tb1li .tab2 .tab2lic:hover .category03 {
+    display: block;
+  }
+  
+  /* .haitun .htnav .tab1 .tb1li .tab2 .tab2lid:hover .tab2div{
+    border-left: 4px solid rgb(204, 118, 204);
+  } */
+  
+  .haitun .htnav .tab1 .tb1li .tab2 .tab2lid:hover .category04 {
+    display: block;
+  }
+  
+  /* .haitun .htnav .tab1 .tb1li .tab2 .tab2lie:hover .tab2div{
+    border-left: 4px solid rgb(161, 106, 50);
+  } */
+  
+  .haitun .htnav .tab1 .tb1li .tab2 .tab2lie:hover .category05 {
+    display: block;
+  }
+  
+  /* .haitun .htnav .tab1 .tb1li .tab2 .tab2lif:hover .tab2div{
+    border-left: 4px solid rgb(241, 170, 37);
+  } */
+  .haitun .htnav .tab1 .tb1li .tab2 .tab2lif:hover .category06 {
+    display: block;
+  }
+  
+  /* .haitun .htnav .tab1 .tb1li .tab2 .tab2lig:hover .tab2div{
+    border-left: 4px solid rgb(12, 139, 12);
+  } */

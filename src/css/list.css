@@ -1,0 +1,472 @@
+.bbbb{
+    height: 2000px;
+    border:2px solid blue;
+}
+
+ /* #overlay{position:absolute;top:0;left:0;width:100%;height:2000px;background:#000;opacity:0.5;filter:alpha(opacity=50);display:none;} */
+
+
+ 
+/*------------【海豚村03  列表页三级导航】----------------*/
+.list .htnav .tab1 .tb1li:hover .tab2{
+    display: block;
+} 
+
+.list .htnav .tab1 .tb1li .tab2{
+    display: none;
+}
+
+
+
+.list .htnav .tab1 .tab1lic:hover .tab1lic_ul{
+    display: block;
+}
+
+.list .htnav .tab1 .tab1lic{
+    border:none;
+
+}
+
+.list .htnav .tab1 .tab1lic .tab1lic_ul{
+    display: none;
+} 
+
+
+/*------------【海豚村04  Four】----------------*/
+.list .list_four{
+    height: 44px;
+    background: #F6F6F6;
+    line-height: 44px;
+}
+
+.list .list_four .ht_container{
+    height: 44px;
+}
+
+.list .list_four ul{
+   position: relative;
+   padding-left: 16px;
+   height: 44px;
+   font-size: 14px;
+ }
+
+ .list .list_four ul a{
+   
+    color: #999999;
+  }
+
+ .list .list_four ul span{
+    position: absolute;
+    left: 0px;
+    top:0px;
+   font-size: 14px;
+
+  }
+.list .list_four ul li{
+   float: left;
+}
+
+
+/***************【海豚村05  Five】**************/
+/*-------【xgleimu.css】----*/
+.list .xgleimu{
+    background: #F6F6F6;
+    padding-bottom:50px;
+    overflow: hidden;
+}
+
+
+/*-------------【左】-----------*/
+
+.xgleimu .five_Left h2{
+    height: 36px;
+    width: 220px;
+    background: #FCFCFC;
+    line-height: 36px;
+    border-bottom: 2px solid #EDEDED;
+}
+
+.xgleimu .five_Left{
+    float: left;
+    /* background: rgb(255, 170, 170); */
+    background: #FFFFFF;
+} 
+/*-------（左  One）------*/
+.xgleimu .five_Left .fiveleft{
+    width: 220px;
+    height:100%;
+    border:1px solid black;
+    margin-bottom: 10px;
+    
+}
+.xgleimu .five_Left .leftOne{
+    border:2px solid #C0C0C0;
+}
+
+ .xgleimu .five_Left  .ulone_a{
+    padding:0px 15px  24px 15px;
+
+}
+
+.xgleimu .five_Left .leftOne .ulone_a .ulone_b{
+   padding-left: 15px; 
+}
+
+.xgleimu .five_Left .leftOne  .ulone_b li a{
+color: #666666;
+}
+
+ .xgleimu .five_Left .leftOne .ulone_a .litwo  input{
+height: 26px;
+width: 190px;
+line-height: 26px;
+background: #FAFAFA;
+border: 2px solid #EDEDED;
+
+ }
+
+/*-------（左  Two）------*/
+
+.xgleimu .five_Left .leftTwo ul li{
+   width: 90px;
+   height: 70px;
+   float: left;
+   border:1px solid #EDEDED;
+   margin-top:2px;
+   margin-left: 2px;
+}
+
+.xgleimu .five_Left .leftTwo ul .dvbtn{
+    width: 90px;
+    height: 30px;
+    margin-top: 6px;
+    border:none;
+    /* background: yellowgreen; */
+    margin-left: 50px;
+ }
+
+
+.xgleimu .five_Left .leftTwo ul .dvbtn span{
+    margin-left: 20px;
+    font-weight: bold;
+ }
+
+.xgleimu .five_Left .leftTwo ul li img{
+    width: 90px;
+    height: 70px;
+   
+ }
+
+.xgleimu .five_Left .leftTwo ul{
+    /* width: 90px; */
+    height: 404px;
+  
+ }
+ 
+.xgleimu .five_Left .leftTwo{
+    border:2px solid #C0C0C0;
+}
+
+
+
+
+/*-------------【右】-----------*/
+.list .xgleimu .five_Right{
+    width: 960px;
+    /* height:100%; */
+    background: #F6F6F6;
+    float: right;
+}
+
+
+/*-------（上  热卖推荐）-----*/
+.list .xgleimu .five_Right .rightTop{
+    width: 960px;
+    height: 156px;
+    background: #FFFFFF;
+    /* padding-left: 15px; */
+}
+
+.list .xgleimu .five_Right .rightTop h2{
+    height:36px;
+    line-height: 36px;
+    background: #F6F6F6;
+}
+
+
+.list .xgleimu .five_Right .rightTop ul li{
+   width: 230px;
+   height: 120px;
+   margin-left: 10px;
+   border:1px solid red;
+   float: left;
+}
+
+.list .xgleimu .five_Right .rightTop ul li .dvimg{
+    float: left;
+ }
+ .list .xgleimu .five_Right .rightTop ul li .dvimg img{
+    width: 100px;
+    height: 120px;
+ }
+
+ .list .xgleimu .five_Right .rightTop ul li dl{
+    float: right;
+    width: 122px;
+    height: 120px;
+    font-size: 12px;
+ }
+
+ .list .xgleimu .five_Right .rightTop ul li .price{
+  color: #FF4444;
+  line-height: 34px;
+  font-weight:bold;
+ }
+
+ .list .xgleimu .five_Right .rightTop ul li .buy{
+   width: 78px;
+   height: 22px;
+   background: #FF4444;
+   color: #fff;
+   line-height: 22px;
+   text-align: center;
+   }
+
+
+/*-------（中）-----*/
+.list .xgleimu .five_Right .rightCenter{
+    width: 960px;
+    height: 236px;
+    background: #FFFFFF;
+    margin-top: 10px;
+}
+
+.list .xgleimu .five_Right .rightCenter .centerOne{
+    width: 960px;
+    height:168px;
+    background: #FFFFFF;
+}
+
+.list .xgleimu .five_Right .rightCenter .centerOne .dvone{
+    height:42px;
+    line-height: 42px;
+    border-top:2px dashed #F6F6F6;
+    font-size: 12px;
+}
+
+.list .xgleimu .five_Right .rightCenter .centerOne .dvone .jieduan{
+    width: 65px;
+    height:42px;
+    font-weight: bold;
+    border-right:2px dashed #F6F6F6;
+}
+
+.list .xgleimu .five_Right .rightCenter .centerOne .dvone li{
+    width:134px;
+    height:42px;
+    padding-left: 20px;
+    /* border:1px solid black; */
+    float: left;
+}
+
+.list .xgleimu .five_Right .rightCenter .centerOne .dvone li a{
+    color: #888888;
+  
+}
+
+
+/*-------（下）-----*/
+.list .xgleimu .five_Right .rightCenter .centerTwo{
+    height: 70px;
+    padding-top: 35px;
+}
+
+/*----------（L）--------*/
+.list .xgleimu .five_Right .rightCenter .centerTwo .twoL{
+    height: 36px;
+    width: 328px;
+    margin-left: 2px;
+    float: left;
+}
+
+.list .xgleimu .five_Right .rightCenter .centerTwo .twoL li{
+    height: 36px;
+    width: 82px;
+    line-height: 36px;
+    border:2px solid #F6F6F6;
+    float: left;
+   text-align: center;
+
+}
+
+.list .xgleimu .five_Right .rightCenter .centerTwo .twoL .tuijian{
+   background: #009DE0;
+}
+
+.list .xgleimu .five_Right .rightCenter .centerTwo .twoL .tuijian a{
+    color: #F6F6F6;
+ }
+ 
+.list .xgleimu .five_Right .rightCenter .centerTwo .twoL li a{
+   color: #222222;
+}
+
+/*----------（C）--------*/
+.list .xgleimu .five_Right .rightCenter .centerTwo .twoC{
+    height: 36px;
+    width: 558px;
+    border:1px solid black;
+    float: left;
+
+}
+
+.list .xgleimu .five_Right .rightCenter .centerTwo .twoC .input-group{
+    width: 200px;
+   float: left;
+}
+
+
+.list .xgleimu .five_Right .rightCenter .centerTwo .twoC .amount{
+    width:174px;
+    height: 36px;
+   float: right;
+   line-height: 36px;
+}
+
+.list .xgleimu .five_Right .rightCenter .centerTwo .twoC .pager-num{
+   color: #007ACC;
+   font-weight: bold;
+}
+
+
+/*----------（R）--------*/
+.list .xgleimu .five_Right .rightCenter .centerTwo .twoR{
+    height: 36px;
+    width: 72px;
+    line-height: 36px;
+    text-align: center;
+    border:1px solid black;
+    float: left;
+}
+
+
+
+/*-------------【产品列表】------------*/
+.list .xgleimu .five_Right .productlist{
+    /* width: 960px; */
+    height: 100%;
+    /* background: yellow; */
+    margin-top: 15px;
+}
+
+
+
+.list .xgleimu .five_Right .productlist ul li{
+    width:232px;
+    height: 358px;
+    border:1px solid black;
+    float: left;
+    margin-bottom: 15px;
+}
+
+
+.list .xgleimu .five_Right .productlist ul li .pimg img{
+    height: 192px;
+    background: lightblue;
+   
+}
+
+
+
+/*-------（dl）--------*/
+.list .xgleimu .five_Right .productlist ul li dl{
+    height: 132px;
+    background: lightcyan;
+    padding-top:32px;
+    position: relative;
+
+}
+
+/*-------（dt）--------*/
+.list .xgleimu .five_Right .productlist ul li dl .price{
+   color: #FF3333;
+   font-weight: bold;
+   font-size: 16px;
+}
+
+/*-------（dd）--------*/
+.list .xgleimu .five_Right .productlist ul li dl a{
+    color:#333333;
+   
+ }
+
+
+ /*------（商品li的移入效果）-----*/
+.list .xgleimu .five_Right .productlist ul li:hover dl {
+    transition:all 1s;
+
+}
+
+.list .xgleimu .five_Right .productlist ul li:hover .item {
+    border:1px solid red;
+
+}
+
+.list .xgleimu .five_Right .productlist ul li .item {
+    padding-left: 12px; 
+    padding-right: 12px; 
+
+}
+
+.list .xgleimu .five_Right .productlist ul li:hover dl .cart{
+     display: block;
+ }
+
+.list .xgleimu .five_Right .productlist ul li:hover dl{
+    padding-top: 8px;
+}
+ .list .xgleimu .five_Right .productlist ul li dl .cart{
+    background:#FF3333;
+    height: 30px;
+    width: 206px;
+    line-height: 30px;
+    text-align: center;
+    /* margin-top:6px; */
+    display: none;
+    position: absolute;
+    bottom: 0px;
+ }
+
+ .list .xgleimu .five_Right .productlist ul li dl .cart a{
+    color: #F6F6F6;
+ }
+
+.list .xgleimu .five_Right .productlist ul .pa{
+    margin-left: 10px;
+}
+
+/*------（国家）------*/
+.list .xgleimu .five_Right .productlist ul li .contry{
+    height: 33px;
+    line-height: 33px;
+    background: tan;
+}
+
+.list .xgleimu .five_Right .productlist ul li .contry .pl{
+    float: left;
+    padding-left: 18px;
+    position: relative;
+}
+
+.list .xgleimu .five_Right .productlist ul li .contry .pl span{
+    width: 16px;
+    height: 16px;
+    background-image: url("../img/listImg/dian.png");
+    position: absolute;
+    left: 0px;
+    top: 8px;
+}
+
+.list .xgleimu .five_Right .productlist ul li .contry .pr{
+    float: right;
+}

@@ -17,12 +17,13 @@
      <link rel="stylesheet" href="../css/head.css">
      <!--【三级导航条】-->
      <link rel="stylesheet" href="../css/navigation .css">
-     <!-- <link rel="stylesheet" href="../css/xgleimu.css"> -->
+     <link rel="stylesheet" href="../css/xgleimu.css">
      <link rel="stylesheet" href="../css/list.css">
   
  
      <!--引入script-->
-     <script src="../js/jquery-3.3.1.js"></script>
+     <script src="../js/jquery-3.2.1.js"></script>
+     <script src="../js/list.js"></script>
      <script src="../lib/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
 
 </head>
@@ -79,7 +80,7 @@
             <!--two-one-->
             <div class="two-one">
                 <a href="#">
-                    <img src="img/indexImg/headtwo01.png" alt="">
+                    <img src="../img/indexImg/headtwo01.png" alt="">
                 </a>
             </div>
             <!--two-two-->
@@ -111,6 +112,7 @@
             <div class="two-four">
                 <a href="#">
                     <i class="iconfont icon-gouwuche"></i>购物车</a>
+                    <span class="count">0</span>
             </div>
 
         </div>
@@ -148,21 +150,20 @@
                             <ul class="tab3 category01 category">
                                 <!--第一排（奶粉辅食/喂养用品）-->
                                 <div class="menu-itemOne">
-                                    <!---->
-                                    <dl class="menu-item">
-                                        <dt class="title">奶粉辅食</dt>
-                                        <dd>配方奶粉</dd>
-                                        <dd>特殊奶粉</dd>
-                                        <dd>羊奶粉</dd>
-                                        <dd>米粉/菜粉</dd>
-                                        <dd>果泥/果汁</dd>
-                                        <dd>菜泥/肉泥</dd>
-                                        <dd>面条/粥</dd>
-                                        <dd>通心粉</dd>
-                                        <dd>宝宝零食</dd>
-                                    </dl>
 
-                                    <!---->
+                                    <dl class="menu-item">
+                                        <dt class="title"><a>奶粉辅食</a></dt>
+                                        <dd><a href="#">配方奶粉</a></dd>
+                                        <dd><a href="#">特殊奶粉</a></dd>
+                                        <dd><a href="#">羊奶粉</a></dd>
+                                        <dd><a href="#">米粉/菜粉</a></dd>
+                                        <dd><a href="#">果泥/果汁</a></dd>
+                                        <dd><a href="#">菜泥/肉泥</a></dd>
+                                        <dd><a href="#">面条/粥</a></dd>
+                                        <dd><a href="#">通心粉</a></dd>
+                                        <dd><a href="#">宝宝零食</a></dd>
+                                    </dl>
+                                    
                                     <dl class="menu-item mileft">
                                         <dt class="title">喂养用品</dt>
                                         <dd>奶瓶奶嘴</dd>
@@ -940,7 +941,35 @@
             
             <!--***************【右】******************-->
             <div class="five_Right">
-            
+            <div class="productlist">
+               <ul class="prolist">
+                   
+                <!--*****【商品01】******-->
+                <!-- <li>
+                    <div class="item">
+                        <a href="#">
+                            <div class="pimg"></div>
+                        </a>
+                        <dl>
+                            <dt class="price">¥306.00</dt>
+                            <dd>A2 白金系列 婴幼儿配方奶粉是由天然牛奶加工而成</dd>
+                            <dd class="cart">
+                                <a href="#">加入购物车</a>
+                            </dd>
+                        </dl>
+                        <div class="contry">
+                            <p class="pl"><span></span>德国2号店</p>
+                            <p class="pr"><img src="../img/listImg/pcontry.png" alt=""></p>
+                        </div>
+                    </div>
+                </li> -->
+
+                <!--*****【商品01】******-->
+
+
+               </ul>
+
+            </div>
      
             </div>
             <!--***************【右】******************-->
@@ -1074,8 +1103,20 @@
     <div class="bbbb"></div>
 
 
+ 
+
+
+
 
 </div>
 
+
+
+  <!-- ******************【弹出层】*********** -->
+  <div id="overlay"></div>
+
+
+
+ 
 </body>
 </html>

@@ -1,0 +1,123 @@
+
+  
+  /*---------（登录页面的Container）--------*/
+  /* .login .info_container{
+      width: 990px;
+      margin:0px auto;
+  } */
+  
+  /****************（01海豚村One）headOne****************/
+  
+  .login .headTwo .two-two {
+    float: right;
+  }
+  
+  /****************（03海豚村Three）登录****************/
+  .login .threebg {
+    background-image: url("../img/loginImg//bg.jpg");
+    height: 588px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: top;
+  }
+  
+  .login .threebg .denglu {
+    width: 386px;
+    height: 408px;
+    /* border: 1px solid black; */
+    position: absolute;
+    right: 38px;
+    top: 68px;
+    padding:0px 34px;
+    background: #ffffff;
+  }
+  
+  .login .threebg .denglu .dltop {
+    height: 40px;
+    line-height: 40px;
+    /* background: lightcyan; */
+  }
+  
+  .login .threebg .denglu .dltop ul .a a {
+    color: #444444;
+  }
+  .login .threebg .denglu .dltop ul .a {
+    float: left;
+    font-weight: bold;
+    /* font-size: 16px; */
+  }
+  
+  .login .threebg .denglu .dltop ul .b {
+    float: right;
+  }
+  
+  .login .threebg .denglu ul li {
+    margin-top: 6px;
+  }
+  
+  .login .threebg .denglu .btnlogin {
+    height: 40px;
+  }
+  
+  .login .threebg .denglu .btnlogin p {
+    height: 40px;
+    background: #009de0;
+    text-align: center;
+    line-height: 44px;
+    color: #ffffff;
+  }
+
+  
+  .login .threebg .denglu .biaodan li .tishi{
+    color: red;
+    font-weight: bold;
+    height: 12px;
+    display:block;
+    /* width:10px; */
+  }
+  
+ 
+  .login .threebg .denglu .ba .yanzheng{
+   position: relative;
+  }
+
+  .login .threebg .denglu .ba .code{
+    position: absolute;
+    display: block;
+    width:60px;
+    height:46px;
+    right: 0px;
+    top: 0px;
+    line-height: 46px;
+    font-size:20px;
+    text-align: center;
+    border-left: 1px solid ghostwhite;
+    /* background: burlywood; */
+   }
+ 
+
+  .login .threebg .denglu .dlfs .fsleft {
+    float: left;
+  }
+  
+  .login .threebg .denglu .dlfs .fsleft li {
+    float: left;
+    margin-left: 5px;
+  }
+  
+  .login .threebg .denglu .dlfs .fsright {
+    float: right;
+    margin-right: 20px;
+  }
+  
+  
+  /*-------------（海豚村16）登录底部--------------------*/
+  .login .loginBottom{
+    height: 105px;
+    line-height: 105px;
+  }
+  
+  .login .loginBottom p{
+    text-align: center;
+  }

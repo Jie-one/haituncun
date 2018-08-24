@@ -1,0 +1,511 @@
+
+.goods .bbb{
+    height: 500px;
+    border:2px solid blue;
+}
+
+
+
+/*------------【海豚村03  列表页三级导航】----------------*/
+.goods .htnav .tab1 .tb1li:hover .tab2{
+    display: block;
+}
+
+.goods .htnav .tab2{
+    display: none;
+}
+
+.goods .htnav .tab1 .tab1lic:hover .tab1lic_ul{
+    display: block;
+}
+
+.goods .htnav .tab1 .tab1lic{
+    border:none;
+
+}
+
+.goods .htnav .tab1 .tab1lic .tab1lic_ul{
+    display: none;
+}
+
+
+/*------------【海豚村04  Four】----------------*/
+.goods .goods_four{
+    height: 44px;
+    background: #F6F6F6;
+    line-height: 44px;
+}
+
+.goods .goods_four .ht_container{
+    height: 44px;
+}
+
+.goods .goods_four ul{
+   position: relative;
+   padding-left: 16px;
+   height: 44px;
+   font-size: 14px;
+ }
+
+ .goods .goods_four ul a{
+   
+    color: #999999;
+  }
+
+ .goods .goods_four ul span{
+    position: absolute;
+    left: 0px;
+    top:0px;
+   font-size: 14px;
+
+  }
+.goods .goods_four ul li{
+   float: left;
+}
+
+
+/***************【海豚村05  Details】****************/
+.goods .goods_details{
+    height: 570px;
+    background: #F6F6F6;
+
+}
+
+.goods .goods_details .ht_container{
+    height: 570px;
+    background: #FFFFFF;
+   border:1px solid gainsboro;
+
+}
+
+
+/*********【01左】*********/
+.goods .goods_details .deal_Left{
+    width: 420px;
+    height: 570px;
+    /* background: yellow; */
+    float: left;
+    padding:20px 0px 0px 20px;
+}
+
+.goods .goods_details .deal_Left .top{
+    width: 400px;
+    height: 400px;
+    border:1px solid gainsboro;
+}
+
+.goods .goods_details .deal_Left .top img{
+   width: 100%;
+   height: 100%;
+   /* width: 200px; */
+}
+
+
+.goods .goods_details .deal_Left .bom ul{
+    height: 44px;
+    line-height: 44px;
+ }
+
+
+.goods .goods_details .deal_Left .bom ul li{
+   float: left;
+   margin-right: 8px;
+}
+
+
+/*********【02Center】*********/
+.goods .goods_details .deal_Center{
+    width: 530px;
+    height: 570px;
+    background: pink;
+    float: left;
+    margin-left: 30px;
+    padding-top: 20px;
+}
+
+
+/*------（中01）-------*/
+.goods .goods_details .deal_Center .delOne{
+    width: 530px;
+    /* height:144px; */
+    height:160px;
+    /* background: lightblue; */
+}
+
+.goods .goods_details .deal_Center .delOne .protitle{
+font-size: 18px;
+font-weight: bold;
+}
+
+.goods .goods_details .deal_Center .delOne h2{
+   height: 24px;
+   line-height: 24px;
+}
+
+
+.goods .goods_details .deal_Center .delOne .country{
+    height: 22px;
+    line-height:22px;
+ }
+ 
+ .goods .goods_details .deal_Center .delOne .country li{
+float: left;
+padding-right:10px;
+ }
+ 
+
+
+/*------（中02）商品价格-------*/
+.goods .goods_details .deal_Center .delTwo{
+  width: 530px;
+  /* height: 116px; */
+  height: 100px;
+  background: #F5F5F5;
+}
+
+.goods .goods_details .deal_Center .delt .price{
+    color: #FF3333;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+.goods .goods_details .deal_Center .delt p{
+    width: 530px;
+    height:32px;
+   line-height: 32px;
+  }
+
+.goods .goods_details .deal_Center .delt label{
+    width:70px;
+   text-align: center;
+}
+
+
+/*------（3）-------*/
+.goods .goods_details .deal_Center .delThree{
+    width: 530px;
+    height: 108px;
+    /* background: lightcyan; */
+  }
+
+  /*------（4）-------*/
+.goods .goods_details .deal_Center .delFour{
+    height: 68px;
+    padding:14px 0px 0px 14px;
+    /* background: lemonchiffon; */
+  }
+
+  .goods .goods_details .deal_Center .delFour .gwc{
+    width: 160px;
+    height: 40px;
+    background: #FF3333;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+  }
+
+ /*------（5）-------*/
+ .goods .goods_details .deal_Center .delFive ul{
+    height: 44px;
+  }
+
+  .goods .goods_details .deal_Center .delFive ul li{
+    float: left;
+    padding:0px 6px 0px 6px;
+    line-height: 44px;
+
+  }
+
+
+
+/*********【03右】*********/
+.goods .goods_details .deal_Right{
+    width: 170px;
+    height: 570px;
+    background: #FFFFFF;
+    float: right;
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-left:0px 15px;
+}
+
+.goods .goods_details .deal_Right .top{
+    height: 246px;
+    /* background: lemonchiffon; */
+   
+}
+
+/*------------（tone）--------*/
+
+
+.goods .goods_details .deal_Right .top .tone img{
+    height: 78px;
+    width: 165px;
+}
+
+/*------------（ttwoe）--------*/
+.goods .goods_details .deal_Right .top .ttwo{
+    height: 117px;
+    /* background: lightcyan; */
+    font-size: 12px;
+}
+
+.goods .goods_details .deal_Right .top .ttwo h2{
+    font-weight: bold;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+/*------------（tthree）--------*/
+
+.goods .goods_details .deal_Right .top .tthree{
+  height: 50px;
+  padding:6px 6px;
+  /* background: lightgreen; */
+}
+
+.goods .goods_details .deal_Right .top .tthree p{
+    height: 30px;
+    width: 120px;
+    border:2px solid #F5F5F5;
+    text-align: center;
+    line-height: 30px;
+  }
+
+
+  /*--------（bom）-----*/
+  .goods .goods_details .deal_Right .bom{
+    height: 303px;
+    /* background: lightblue; */
+   
+  }
+
+  .goods .goods_details .deal_Right .bom h2{
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+   
+  }
+
+  .goods .goods_details .deal_Right .bom dt{
+    height: 100px;
+    /* background: lemonchiffon; */
+  }
+
+  .goods .goods_details .deal_Right .bom dt img{
+    height: 100px;
+    width: 100%;
+  }
+
+  .goods .goods_details .deal_Right .bom  dd{
+   text-align: center;
+  }
+
+.goods .goods_details .deal_Right .bom  .pri{
+    color: #FF4444;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+ }
+
+  .goods .goods_details .deal_Right .bom  .cont{
+    font-size: 12px;
+   }
+
+
+
+
+
+/***************【海豚村06  人气单品】****************/
+.goods .goods_renqidp{
+    height: 308px;
+    margin-top: 10px;
+    background: rgb(255, 201, 146);
+}
+
+/*-------（人气单品  Top）-------*/
+.goods .goods_renqidp .renqiTop{
+    height: 30px;
+    line-height: 30px;
+}
+
+
+/*-------（人气单品  Bottom）-------*/
+.goods .goods_renqidp .renqiBottom{
+    height: 274px;
+}
+
+.goods .goods_renqidp .renqiBottom dl{
+    height: 274px;
+    width: 198px;
+    /* border:1px solid black; */
+    float: left;
+    padding-left: 30px;
+}
+
+
+.goods .goods_renqidp .renqiBottom dl dt img{
+    height: 114px;
+    width: 158px;
+    background: lavender;
+}
+
+.goods .goods_renqidp .renqiBottom dl .des{
+  padding-top: 20px;
+}
+.goods .goods_renqidp .renqiBottom dl .price{
+    height: 30px;
+   color: #FF3333;
+   font-weight: bold;
+   font-size: 20px;
+}
+
+
+
+
+/***************【海豚村07  相关类目】****************/
+.xgleimu{
+    background: #F6F6F6;
+    padding-bottom:50px;
+    overflow: hidden;
+}
+
+
+/*-------------【左】-----------*/
+
+.xgleimu .five_Left h2{
+    height: 36px;
+    width: 220px;
+    background: #FCFCFC;
+    line-height: 36px;
+    border-bottom: 2px solid #E6E6E6;
+}
+
+.xgleimu .five_Left{
+    float: left;
+    /* background: rgb(255, 170, 170); */
+    background: #FFFFFF;
+} 
+/*-------（左  One）------*/
+.xgleimu .five_Left .fiveleft{
+    width: 220px;
+    height:100%;
+    border: 2px solid #E6E6E6;
+
+    /* border:1px solid black; */
+    margin-bottom: 10px;
+    
+}
+.xgleimu .five_Left .leftOne{
+    border:2px solid #E6E6E6;
+}
+
+ .xgleimu .five_Left  .ulone_a{
+    padding:0px 15px  24px 15px;
+
+}
+
+.xgleimu .five_Left .leftOne .ulone_a .ulone_b{
+   padding-left: 15px; 
+}
+
+.xgleimu .five_Left .leftOne  .ulone_b li a{
+color: #666666;
+}
+
+ .xgleimu .five_Left .leftOne .ulone_a .litwo  input{
+height: 26px;
+width: 190px;
+line-height: 26px;
+background: #FAFAFA;
+border: 2px solid #EDEDED;
+
+ }
+
+/*-------（左  Two）------*/
+
+.xgleimu .five_Left .leftTwo dl{
+   width:220px;
+   height: 230px;
+   /* border:1px solid red; */
+   margin-left: 2px;
+   padding-left: 10px;
+   border-bottom: 2px dashed #F6F6F6;
+}
+
+.xgleimu .five_Left .leftTwo dl dt img{
+    height: 140px;
+   background: #FFFFFF;
+ }
+ 
+ .xgleimu .five_Left .leftTwo dl .price{
+ color:#FF3333;
+ font-size: 18px;
+ font-weight: bold;
+ }
+ 
+
+/*-------------【右】-----------*/
+.goods .xgleimu .five_Right{
+    width: 960px;
+    /* height:100%; */
+    background: lightblue;
+    float: right;
+}
+
+
+/*------（右上）-----*/
+.goods .xgleimu .five_Right .frightTop{
+    height:42px;
+    background: #FCFCFC;
+}
+
+.goods .xgleimu .five_Right .frightTop ul li a{
+    display: block;
+    height:42px;
+    width: 130px;
+    float: left;
+    line-height: 42px;
+    text-align: center;
+    margin-right: 4px;
+    color: #333333;
+}
+
+.goods .xgleimu .five_Right .frightTop ul .a:hover a{
+    background: #019CDF;
+    color: #FFFFFF;
+}
+
+
+/*------（右下）-----*/
+.goods .xgleimu .five_Right .frightBottom{
+    height:100%;
+    padding-left: 104px;
+    background: #FFFFFF;
+}
+
+
+.goods .xgleimu .five_Right .frightBottom .rightOne{
+    height:234px;
+    padding-top: 25px;
+    /* background: rgb(215, 243, 157); */
+}
+
+.goods .xgleimu .five_Right .frightBottom .rightOne div{
+    height:184px;
+    width: 748px;
+    /* border:2px solid #037FBF; */
+    background: lavender;
+}
+
+
+/*------（介绍）-----*/
+.goods .xgleimu .five_Right .frightBottom dl ul li{
+    list-style-type: circle;
+}
+
+.goods .xgleimu .five_Right .frightBottom dl{
+    margin-top: 15px;
+}

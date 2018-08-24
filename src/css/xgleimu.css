@@ -1,0 +1,97 @@
+ .xgleimu{
+    background: #F6F6F6;
+    padding-bottom:50px;
+    overflow: hidden;
+}
+
+
+/*-------------【左】-----------*/
+
+.xgleimu .five_Left h2{
+    height: 36px;
+    width: 220px;
+    background: #FCFCFC;
+    line-height: 36px;
+    border-bottom: 2px solid #EDEDED;
+}
+
+.xgleimu .five_Left{
+    float: left;
+    /* background: rgb(255, 170, 170); */
+    background: #FFFFFF;
+} 
+/*-------（左  One）------*/
+.xgleimu .five_Left .fiveleft{
+    width: 220px;
+    height:100%;
+    border:1px solid black;
+    margin-bottom: 10px;
+    
+}
+.xgleimu .five_Left .leftOne{
+    border:2px solid #C0C0C0;
+}
+
+ .xgleimu .five_Left  .ulone_a{
+    padding:0px 15px  24px 15px;
+
+}
+
+.xgleimu .five_Left .leftOne .ulone_a .ulone_b{
+   padding-left: 15px; 
+}
+
+.xgleimu .five_Left .leftOne  .ulone_b li a{
+color: #666666;
+}
+
+ .xgleimu .five_Left .leftOne .ulone_a .litwo  input{
+height: 26px;
+width: 190px;
+line-height: 26px;
+background: #FAFAFA;
+border: 2px solid #EDEDED;
+
+ }
+
+/*-------（左  Two）------*/
+
+.xgleimu .five_Left .leftTwo ul li{
+   width: 90px;
+   height: 70px;
+   float: left;
+   border:1px solid #EDEDED;
+   margin-top:2px;
+   margin-left: 2px;
+}
+
+.xgleimu .five_Left .leftTwo ul .dvbtn{
+    width: 90px;
+    height: 30px;
+    margin-top: 6px;
+    border:none;
+    /* background: yellowgreen; */
+    margin-left: 50px;
+ }
+
+
+.xgleimu .five_Left .leftTwo ul .dvbtn span{
+    margin-left: 20px;
+    font-weight: bold;
+ }
+
+.xgleimu .five_Left .leftTwo ul li img{
+    width: 90px;
+    height: 70px;
+   
+ }
+
+.xgleimu .five_Left .leftTwo ul{
+    /* width: 90px; */
+    height: 404px;
+  
+ }
+ 
+.xgleimu .five_Left .leftTwo{
+    border:2px solid #C0C0C0;
+}

@@ -1,0 +1,119 @@
+
+/***********（16海豚村）海豚村底部*********/
+.haitun .ht_bottom {
+  height: 276px;
+  /* background: black; */
+}
+
+.haitun .ht_bottom .ht_container{
+  height: 276px;
+}
+
+
+/*---------（上）----------*/
+.haitun .ht_bottom .bottomTop{
+  height: 182px;
+  /* background: lavenderblush; */
+  margin-bottom: 2px;
+}
+
+.haitun .ht_bottom li a{
+color: #333333;
+}
+
+.haitun .ht_bottom .bottomTop .btCenter ul li a{
+  color: #333333;
+  }
+.haitun .ht_bottom .bom{
+  padding-top: 30px;
+
+}
+
+/*-----（左）----*/
+.haitun .ht_bottom .bottomTop .btLeft{
+  /* height: 182px; */
+  height: 152px;
+  width: 146px;
+  /* background: lightgoldenrodyellow; */
+  float: left;
+}
+
+
+.haitun .ht_bottom .bottomTop .btLeft ul li:nth-child(1){
+padding-bottom: 26px;
+}
+
+.haitun .ht_bottom .bottomTop .btLeft ul li:nth-child(2) input{
+  height: 30px;
+  width: 100px;
+  color: #FFFFFF;
+  background: #00AEED;
+}
+
+/*-----（中）----*/
+.haitun .ht_bottom .bottomTop .btCenter{
+  /* height: 182px; */
+  height: 152px;
+  width: 920px;
+  /* background: lavender; */
+  float: left;
+}
+
+.haitun .ht_bottom .bottomTop .btCenter ul{
+height: 152px;
+width:176px;
+float: left;
+/* border:1px solid black; */
+padding-left: 30px;
+}
+
+.haitun .ht_bottom .bottomTop .btCenter ul li{
+padding: 5px 10px;
+  }
+
+
+.haitun .ht_bottom .bottomTop .btCenter ul li h2{
+    font-weight: bold;
+  }
+
+
+/*-----（右）----*/
+.haitun .ht_bottom .bottomTop .btRight{
+  /* height: 182px; */
+  height: 152px;
+  width: 114px;
+  /* background: lightgray; */
+  float: left;
+  padding-left: 10px;
+}
+
+.haitun .ht_bottom .bottomTop .btRight h2{
+padding:6px 0px;
+}
+
+/*---------（下）----------*/
+.haitun .ht_bottom .bottomFoter{
+  height:92px;
+  /* background: lightcyan; */
+  margin-bottom: 2px;
+  padding-left:138px;
+}
+
+.haitun .ht_bottom .bottomFoter p{
+ text-align: center;
+}
+
+.haitun .ht_bottom .bottomFoter p a{
+  color: #999999;
+ }
+
+ .haitun .ht_bottom .bottomFoter .bf{
+   height: 72px;
+    /* background: lightblue; */
+ }
+
+ .haitun .ht_bottom .bottomFoter .bf li{
+   width: 130px;
+   height: 72px;
+   float: left;
+}

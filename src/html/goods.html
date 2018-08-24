@@ -19,10 +19,13 @@
    <!-- <link rel="stylesheet" href="../css/xgleimu.css"> -->
    <link rel="stylesheet" href="../css/goods.css">
 
+<!-- <link rel="stylesheet" href="../lib/jquery-lxzoom/jquery.lxzoom.css"> -->
 
    <!--引入script-->
-   <script src="../js/jquery-3.3.1.js"></script>
-   <script src="../lib/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+   <script src="../js/jquery-3.2.1.js"></script>
+   <script src="../js/goods.js"></script>
+   
+   <!-- <script src="../lib/jquery-lxzoom/jquery.lxzoom.js"></script> -->
 
 
 
@@ -110,6 +113,7 @@
                 <div class="two-four">
                     <a href="#">
                         <i class="iconfont icon-gouwuche"></i>购物车</a>
+                        <span class="count">0</span>
                 </div>
 
             </div>
@@ -825,7 +829,11 @@
 
         <!--*******【01左】*****-->
         <div class="deal_Left">
-            <div class="top"></div>
+            <!--商品详情图片-->
+            <div class="top">
+                <img src="../img/indexImg/productImg/grhuli01.jpg" alt="" data-big="../img/indexImg/productImg/grhuli01.jpg">
+            </div>
+            
             <div class="bom">
                 <ul>
                     <li>分享：</li>
@@ -854,24 +862,21 @@
             <!--（中上）-->
             <div class="delOne">
                 <!--商品名称-->
-                <div class="protitle">Pigeon 贝亲 细颈奶瓶 120ml（PP）（耐热110度/有蠕动奶嘴）</div>
-                <h2>Pigeon Slim Neck Bottle 120ml (PP)</h2>
+                <div class="protitle"></div>
+                <!-- <h2>Pigeon Slim Neck Bottle 120ml (PP)</h2> -->
                 <!--国家-->
                 <div class="country">
                     <ul>
-                        <li><a href="#">
+                        <li>
                             <img src="../img/detailImg/country.png" alt="">
                             澳大利亚
-                        </a>
                     </li>
-                        <li><a href="#">
-                                Pigeon 贝亲 
-                        </a></li>
+                        <li class="cname">
+                           </li>
                     </ul>
                 </div>
                 <!--商品描述-->
                 <div class="prodes">
-                        Pigeon 贝亲 宽颈奶瓶，采用不含内分泌化学物质的新型材料PPSU制成,耐热温度高达110℃，使用更安全，更放心
                 </div>
                 
             </div>
@@ -879,8 +884,7 @@
             <!--（2商品价格）-->
             <div class="delTwo delt">
                 <p><label>价格：</label><span class="price">￥42.02</span></p>
-                <p><label>活动价：</label><span>AU$7.50</span></p>
-                <p><label>进口关税：</label><span>￥12.61(商家承担)</span></p>
+                <p><label>活动价：</label><span class="active">AU$7.50</span></p>
             </div>
 
 
@@ -888,15 +892,17 @@
               <div class="delThree delt">
                     <p><label>运　　费：</label><span class="">首重35元/500g，续重20元/500g；详细运费计算请</span></p>
                     <p><label>服　　务：</label><span>澳洲直邮</span></p>
-                    <p><label>数　　量：</label><input type="number">限购<span class="price">5</span>件</p>
-            </div>
+                    <p><label>数　　量：</label><input type="number" value="1">限购<span class="price">5</span>件</p>
+              </div>
 
             <!--4（加入购物车）-->
             <div class="delFour">
             <p type="text" class="gwc">加入购物车</p>
            </div>
 
-            <!--5（加入购物车）-->
+
+
+
             <div class="delFive">
                <ul>
                    <li>服务承诺</li>
@@ -935,7 +941,7 @@
             <div class="bom">
                <h2>看了又看</h2>
                <dl>
-                   <dt></dt>
+                   <dt><img src="../img/indexImg/qqshangjia/sjImg01.jpg" alt=""></dt>
                    <dd class="pri">￥379.0</dd>
                    <dd class="cont">Lamisil 乐肤舒 脚气膏 4*15g/支（治真菌足癣/脚癣）</dd>
                </dl>
@@ -1361,5 +1367,11 @@
 
 
     </div>
+
+
+
+
+
+
 </body>
 </html>

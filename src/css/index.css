@@ -1,0 +1,747 @@
+
+/*----------【轮播图】--------*/
+
+.carousel .item img{
+width: 100%;
+height: 420px;
+}
+
+.carousel-control .icon-prev, .carousel-control .glyphicon-chevron-left {
+  left: 282px;
+}
+.carousel-control .icon-prev, .carousel-control .glyphicon-chevron-right {
+  right: 282px;
+}
+
+
+
+/*--------三级（母婴用品类）--------*/
+/*--***（母婴用品类01）***--*/
+
+/*隐藏整个第三级导航*/
+.haitun .htnav .tab1 .tab2 .category01 {
+  display: none;
+}
+
+.haitun .htnav .tab1 .tab2 .tab3 .menu-itemOne .menu-item {
+  width: 340px;
+  /* height: 90px; */
+  /* background: #f9f4ee; */
+  float: left;
+  margin-top: 4px;
+}
+
+/*---dl--*/
+.haitun .htnav .tab1 .tab2 .tab3 .menu-itemOne .mileft {
+  margin-left: 30px;
+}
+
+.haitun .htnav .tab1 .tab2 .tab3 .menu-itemOne .menu-item dt {
+  height: 34px;
+  line-height: 34px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.haitun .htnav .tab1 .tab2 .tab3 .menu-itemOne .menu-item dd {
+  float: left;
+  padding: 3px 8px 3px 0px;
+  color: #646473;
+  font-size: 12px;
+}
+
+/*--***（营养保健02）****--*/
+/*隐藏整个第三级导航*/
+.haitun .htnav .tab1 .tab2 .category02 {
+  display: none;
+}
+
+.haitun .htnav .tab1 .tab2 .tab3 .yybj .yycf {
+  height: 170px;
+}
+
+.haitun .htnav .tab1 .tab2 .tab3 .jjws {
+  height: 80px;
+}
+
+/*--***（美容药妆03）****--*/
+/*隐藏整个第三级导航*/
+.haitun .htnav .tab1 .tab2 .category03 {
+  display: none;
+}
+
+.haitun .htnav .tab1 .tab2 .tab3 .grcz {
+  height: 104px;
+}
+
+/*--***（个人护理04）****--*/
+/*隐藏整个第三级导航*/
+.haitun .htnav .tab1 .tab2 .category04 {
+  display: none;
+}
+
+/*--***（家居厨卫05）****--*/
+/*隐藏整个第三级导航*/
+.haitun .htnav .tab1 .tab2 .category05 {
+  display: none;
+}
+
+/*--***（食品精选06）****--*/
+/*隐藏整个第三级导航*/
+.haitun .htnav .tab1 .tab2 .category06 {
+  display: none;
+}
+
+/*************（04海豚村Four）轮播图***********/
+.haitun .ht_four {
+  height: 420px;
+  /* background: #aac858; */
+  /* background: lavender; */
+}
+
+
+
+/********（05海豚村Five）全球精选，更多好货********/
+.haitun .ht_Sales {
+  height: 300px;
+  /* background: rgb(231, 168, 187); */
+}
+
+.haitun .ht_Sales .ht_container {
+  height: 300px;
+  position: relative;
+}
+
+.haitun .ht_Sales .fiveimg {
+  position: absolute;
+  right: 0px;
+}
+
+
+
+
+
+/***********（06海豚村）全球精品馆*********/
+.haitun .ht_qqjpg {
+  height: 425px;
+
+}
+
+.haitun .ht_quanqiu {
+  background-image: url(../img/indexImg/bg-global.jpg);
+  background-repeat: no-repeat;
+}
+
+/*------（01）全球精品馆Top-----*/
+/*-------（01）全球商家Top--------*/
+.haitun .ht_quanqiu .jpgTop {
+  height: 75px;
+  /* background: rgb(222, 248, 170); */
+
+  padding-top: 38px;
+}
+
+.haitun .ht_quanqiu .jpgTop .topleft {
+  float: left;
+}
+
+.haitun .ht_quanqiu .jpgTop .topleft h1 {
+  font-size: 22px;
+}
+
+.haitun .ht_quanqiu .jpgTop .topleft h1 span{
+  color:#ADADAD;
+}
+
+.haitun .ht_quanqiu .jpgTop .topright {
+  float: right;
+}
+
+
+/*------（02jpgBom）-----*/
+.haitun .ht_qqjpg .jpgBom{
+  height: 350px;
+}
+
+.haitun .ht_qqjpg .jpgBom .bomleft{
+  height: 350px;
+  width:230px;
+  float: left;
+}
+
+.haitun .ht_qqjpg .jpgBom .bomright{
+  height: 350px;
+  width:950px;
+  /* background:lemonchiffon; */
+  float: right;
+}
+
+.haitun .ht_qqjpg .jpgBom .bomright ul li{
+ width: 310px;
+ height: 169px;
+ border: 1px solid yellowgreen;
+ float: left;
+}
+
+.haitun .ht_qqjpg .jpgBom .bomright ul .brlia{
+  margin-bottom: 10px;
+ }
+
+ .haitun .ht_qqjpg .jpgBom .bomright ul .brlil{
+  margin-left: 10px;
+ }
+
+
+
+
+/***********（07海豚村）全球商家*********/
+.haitun .ht_qqshangjia {
+  height: 605px;
+  /* background: lightcyan; */
+}
+
+.haitun .ht_qqshangjia .ht_container {
+  height: 605px;
+}
+
+/*-------（01）全球商家Top--------*/
+/*-------（02）全球商家Bottom--------*/
+.haitun .ht_qqshangjia .qqshangjiaBottom .shangjia_Left,.shangjia_Center,.shangjia_Right{
+  height: 501px;
+  width: 390px;
+  float: left;
+}
+
+.haitun .ht_qqshangjia .qqshangjiaBottom .sj{
+  margin-left: 10px;
+  }
+/*---------（01  Bottom***Left）——--*/
+.haitun .ht_qqshangjia .qqshangjiaBottom .shangjiadv{
+/* background: palegoldenrod; */
+height: 501px;
+}
+
+.haitun .ht_qqshangjia .qqshangjiaBottom .shangjiadv .sjTop{
+  height: 180px;
+  width: 390px;
+  background: #00AEED;
+  }
+
+.haitun .ht_qqshangjia .qqshangjiaBottom .shangjiadv .sjTop .ltopimg{
+    height: 146px;
+    width: 390px;
+}
+
+.haitun .ht_qqshangjia .qqshangjiaBottom .shangjiadv .sjTop .topTwo .sp{
+    display: block;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+
+.haitun .ht_qqshangjia .qqshangjiaBottom .shangjiadv .sjTop .topTwo .spana{
+  float: left;
+ }
+.haitun .ht_qqshangjia .qqshangjiaBottom .shangjiadv .sjTop .topTwo .spanb{
+ float: right;
+}
+
+
+/*---------（01  Bottom）——--*/
+.haitun .ht_qqshangjia .qqshangjiaBottom .shangjiadv .sjleftBottom{
+  height: 321px;
+  padding: 18px 0px 0px 26px;
+  background: #FFFFFF;
+}
+
+/*--------（上）--------*/
+.haitun .ht_qqshangjia .qqshangjiaBottom .shangjiadv .sjleftBottom .bomtop {
+  height:75px;
+}
+
+/*----（上---->左）------*/
+.haitun .ht_qqshangjia .qqshangjiaBottom .shangjiadv .sjleftBottom .bomtop .left {
+  width: 100px;
+  height:75px;
+  background: lavender;
+  float:left;
+}
+
+.haitun .ht_qqshangjia .qqshangjiaBottom .shangjiadv .sjleftBottom .bomtop .left img {
+  width: 100px;
+  height:75px;
+ 
+}
+
+/*----（上---->右）------*/
+.haitun .ht_qqshangjia .qqshangjiaBottom .shangjiadv .sjleftBottom .bomtop .right {
+  width: 256px;
+  height:75px;
+  /* background: lavenderblush; */
+  float: right;
+  font-size: 12px;
+}
+
+
+/*--------（下）--------*/
+.haitun .ht_qqshangjia .qqshangjiaBottom .shangjiadv .sjleftBottom .bomfoter {
+  height:228px;
+  /* background: lightcyan; */
+}
+
+.haitun .ht_qqshangjia .qqshangjiaBottom .shangjiadv .sjleftBottom .bomfoter dl {
+  height:228px;
+  padding-top: 10px;
+  width: 181px;
+  /* border:1px solid black; */
+  float: left;
+  padding-left: 24px;
+}
+
+.haitun .ht_qqshangjia .qqshangjiaBottom .shangjiadv .sjleftBottom .bomfoter dl em{
+color: #FF3333;
+margin-right: 5px;
+font-weight: bold;
+}
+
+.haitun .ht_qqshangjia .qqshangjiaBottom .shangjiadv .sjleftBottom .bomfoter dl span{
+  color: #999999;
+  }
+
+.haitun .ht_qqshangjia .qqshangjiaBottom .shangjiadv .sjleftBottom .bomfoter dl dt{
+  margin-bottom: 10px;
+}
+
+.haitun .ht_qqshangjia .qqshangjiaBottom .shangjiadv .sjleftBottom .bomfoter dl dd{
+  font-size: 12px;
+}
+
+
+
+
+/*---------（02  Bottom***Center）——--*/
+.haitun .ht_qqshangjia .qqshangjiaBottom .shangjia_Center{
+  background: lightcyan;
+  }
+
+
+/*---------（03  Bottom***Right）——--*/
+.haitun .ht_qqshangjia .qqshangjiaBottom .shangjia_Right{
+  background: rgb(208, 218, 119);
+  }
+
+
+
+
+
+
+/***********（08海豚村）母婴用品*********/
+.haitun .productMain {
+  height: 555px;
+  background: #f18585;
+}
+
+/* .haitun  .ht_container {
+  height: 555px;
+} */
+
+.haitun .productMain .jpgTop{
+ background: lightblue;
+}
+
+.haitun .ht_muying .jpgTop{
+  border-bottom:1px solid #FF5555;
+}
+
+
+/*--（02）母婴用品Bottom--*/
+.haitun .productMain .cateBottom {
+  height: 480px;
+ /* border:1px solid black; */
+ background: lemonchiffon
+}
+
+/*-----【Bottom  左】------*/
+.haitun .productMain .cateBottom .bottomLeft{
+  height: 480px;
+  /* width:300px; */
+  width: 298px;
+  border:1px solid #999999;
+  float: left;
+  /*------将左边的大图设置为相对定位------*/
+  position: relative;
+}
+
+
+/*------（左 图片中的内容）------*/
+.haitun .productMain .cateBottom .bottomLeft .leftContent{
+  width: 198px;
+  height: 122px;
+  border:1px solid black;
+  position: absolute;
+  left: 50px;
+  bottom: 34px;
+}
+
+.haitun .productMain .cateBottom .bottomLeft .leftContent h1{
+  width: 198px;
+  height:32px;
+  text-align: center;
+  line-height: 32px;
+  /* background: lavenderblush; */
+}
+
+.haitun .productMain .cateBottom .bottomLeft .leftContent ul li{
+float: left;
+width: 64px;
+height: 28px;
+font-size: 12px;
+}
+
+.haitun .productMain .cateBottom .bottomLeft .leftContent ul li a{
+  color: #000000;
+  } 
+
+
+
+/*-----【Bottom  中】------*/
+.haitun .productMain .cateBottom .bottomCenter{
+  height: 480px;
+  /* width: 651px; */
+  width: 648px;
+  border:1px solid #999999;
+  float: left;
+}
+
+.haitun .productMain .cateBottom .bottomCenter a{
+ color: #000;
+}
+
+
+/*---------（Center li01）--*/
+.haitun .productMain .cateBottom .bottomCenter ul .celia{
+  /* width: 434px; */
+  width: 430px;
+ 
+}
+
+.haitun .productMain .cateBottom .bottomCenter ul .celia .ceimg{
+  height: 238px;
+  width: 213px;
+}
+
+
+.haitun .productMain .cateBottom .bottomCenter ul  .good-txt{
+  margin-top: 50px;
+}
+
+.haitun .productMain .cateBottom .bottomCenter ul  .good-txt h1{
+  font-size: 16px;
+  font-weight: bold;
+  height: 40px;
+  line-height:20px;
+}
+
+.haitun .productMain .cateBottom .bottomCenter ul  .good-txt p{
+ color: #888888;
+}
+
+.haitun .productMain .cateBottom .bottomCenter ul  .good-txt .good-price{
+  height: 40px;
+  line-height: 40px;
+ }
+
+
+.haitun .productMain .cateBottom .bottomCenter ul li .em{
+  color: #FF3333;
+  font-weight: bold;
+  font-size: 16px;
+ }
+ 
+
+.haitun .productMain .cateBottom .bottomCenter ul .celia ul li{
+  height: 238px;
+  width: 213px;
+  float: left;
+  border:1px solid red;
+}
+
+.haitun .productMain .cateBottom .bottomCenter ul li img{
+  width: 124px;
+ 
+}
+
+
+.haitun .productMain .cateBottom .bottomCenter ul li{
+  height: 238px;
+  width: 214px;
+  float: left;
+  border:1px solid red;
+  margin-right:1px;
+  margin-bottom: 1px;
+}
+
+.haitun .productMain .cateBottom .bottomCenter ul .centerTwo{
+padding:28px 0px 0px 28px;
+  
+}
+
+
+
+/*-----【Bottom  右】------*/
+.haitun .productMain .cateBottom .bottomRight{
+  height: 480px;
+  /* width: 239px; */
+  /* width: 238px; */
+  width: 240px;
+  border:1px solid #999999;
+  float: left;
+  margin-left: 2px;
+  padding:0px 18px;
+  border-top:2px solid #FF5555;
+  
+}
+
+.haitun .productMain .cateBottom .bottomRight h1{
+height: 40px;
+line-height: 40px;
+border:1px solid red;
+text-align: center;
+
+}
+
+.haitun .productMain .cateBottom .bottomRight ul li{
+ height: 140px;
+ /* width: 240px; */
+ widows: 204px;
+ margin-bottom: 2px;
+ border:1px solid red;
+  padding-top: 20px;
+  }
+
+  .haitun .productMain .cateBottom .bottomRight ul li img{
+    /* height: 140px; */
+    width: 74px;
+   float: left;     
+     }
+
+     .haitun .productMain .cateBottom .bottomRight ul li dl{
+      height: 140px;
+      width: 120px;
+     float: left;     
+       }
+    
+  
+
+
+
+
+
+/***********（09海豚村）营养保健*********/
+.haitun .ht_yingyang {
+  height: 555px;
+  background: #dffdce;
+}
+
+.haitun .ht_yingyang .jpgTop{
+  border-bottom:1px solid #67CB33;
+}
+
+
+
+
+/***********（10海豚村）美容药妆*********/
+.haitun .ht_meirong {
+  height: 555px;
+  background: #fdd0e9;
+}
+
+.haitun .ht_meirong .jpgTop{
+  border-bottom:1px solid #FF45AA;
+}
+
+
+/***********（11海豚村）个人护理*********/
+.haitun .ht_gerenhuli {
+  height: 555px;
+  background: #ceb2f0;
+}
+
+.haitun .ht_gerenhuli .jpgTop{
+  border-bottom:1px solid #8834EE;
+}
+
+/***********（12海豚村）家居厨卫*********/
+.haitun .ht_jiaju {
+  height: 555px;
+  background: #ebb09d;
+}
+
+.haitun .ht_jiaju .jpgTop{
+  border-bottom:1px solid #D37A5C;
+}
+
+/***********（13海豚村）食品精选*********/
+.haitun .ht_shipin {
+  height: 555px;
+  background: #ffc171;
+}
+
+.haitun .ht_shipin .jpgTop{
+  border-bottom:1px solid #FFA935;
+}
+
+/***********（14海豚村）热门品牌*********/
+.haitun .ht_rmpinpai {
+  /* height: 380px; */
+  height: 405px;
+  padding-bottom: 40px;
+  background: #86beec;
+}
+
+
+/*-------热门品牌Bottom-----*/
+.haitun .ht_rmpinpai .remenBottom{
+  height: 290px;
+  background: lavender;
+}
+
+
+/*-----热门品牌（左）-----*/
+.haitun .ht_rmpinpai .remenBottom .remenLeft{
+height: 290px;
+width: 240px;
+background: lavenderblush;
+float: left;
+}
+
+
+/*-----热门品牌（中）-----*/
+.haitun .ht_rmpinpai .remenBottom .remenCenter{
+  height: 290px;
+  width: 690px;
+  background: lemonchiffon;
+  float: left;
+  margin-left: 10px;
+  }
+
+.haitun .ht_rmpinpai .remenBottom .remenCenter li{
+    padding:22px 0px 0px 22px;
+    height: 90px;
+    width: 340px;
+    border:1px solid red;
+    float: left;
+}
+
+.haitun .ht_rmpinpai .remenBottom .remenCenter li a{
+color: #000000;
+}
+
+
+.haitun .ht_rmpinpai .remenBottom .remenCenter .rmlia{
+   margin-bottom: 10px;
+}
+
+.haitun .ht_rmpinpai .remenBottom .remenCenter .rmlib{
+  margin-left: 10px;
+
+}
+
+.haitun .ht_rmpinpai .remenBottom .remenCenter li .dvliaOne{
+
+float: left;
+}
+
+.haitun .ht_rmpinpai .remenBottom .remenCenter li dl{
+float: right;
+width: 200px;
+height: 90px;
+}
+
+.haitun .ht_rmpinpai .remenBottom .remenCenter li dl dd{
+ color: #999999;
+  }
+
+/*-----热门品牌（右）-----*/
+.haitun .ht_rmpinpai .remenBottom .remenRight{
+  height: 290px;
+  width: 240px;
+  background: lightcyan;
+  float: left;
+  margin-left: 10px;
+
+  }
+  
+
+
+
+
+/***********（15海豚村）海外正品保证*********/
+.haitun .ht_haiwai {
+  height: 100px;
+  background: #009de0;
+  padding-top: 30px;
+
+}
+
+.haitun .ht_haiwai .ht_container{
+  height: 100px;
+}
+
+
+
+.haitun .ht_haiwai ul li{
+  padding-left: 70px;
+  width: 198px;
+  height: 70px;
+  /* border:1px solid black; */
+  float: left;
+  position: relative;
+  
+}
+
+
+.haitun .ht_haiwai ul li a dl{
+color: #FFFFFF;
+}
+
+
+.haitun .ht_haiwai ul li span{
+  display: block;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-image: url("../img/indexImg/indexfw.fw.png");
+  left: 20px;
+}
+
+.haitun .ht_haiwai ul li .spana{
+  background-position-x: -90px;
+}
+.haitun .ht_haiwai ul li .spanb{
+  background-position-x: -130px;
+}
+.haitun .ht_haiwai ul li .spanc{
+  background-position-x: -170px;
+}
+.haitun .ht_haiwai ul li .spand{
+  background-position-x: -210px;
+}
+.haitun .ht_haiwai ul li .spane{
+  background-position-x: -250px;
+}
+.haitun .ht_haiwai ul li .spanf{
+  background-position-x: -290px;
+}
+
+
+
+
+/***********（16海豚村）海豚村底部*********/
+
+
+
+
+
+.haitun .box{
+  height: 500px;
+  border:2px solid blue;
+}
