@@ -18,14 +18,16 @@
    <link rel="stylesheet" href="../css/navigation .css">
    <!-- <link rel="stylesheet" href="../css/xgleimu.css"> -->
    <link rel="stylesheet" href="../css/goods.css">
+   <link rel="stylesheet" href="../css/tanchuceng.css">
 
-<!-- <link rel="stylesheet" href="../lib/jquery-lxzoom/jquery.lxzoom.css"> -->
+<link rel="stylesheet" href="../lib/jquery-xZoom/jquery.xZoom.css">
 
    <!--引入script-->
    <script src="../js/jquery-3.2.1.js"></script>
-   <script src="../js/goods.js"></script>
+   <script src="../js/common.js"></script>
    
-   <!-- <script src="../lib/jquery-lxzoom/jquery.lxzoom.js"></script> -->
+   <script src="../js/goods.js"></script>
+   <script src="../lib/jquery-xZoom/jquery.xZoom.css"></script>
 
 
 
@@ -113,7 +115,7 @@
                 <div class="two-four">
                     <a href="#">
                         <i class="iconfont icon-gouwuche"></i>购物车</a>
-                        <span class="count">0</span>
+                        <span class="count"></span>
                 </div>
 
             </div>
@@ -829,11 +831,13 @@
 
         <!--*******【01左】*****-->
         <div class="deal_Left">
+            
             <!--商品详情图片-->
             <div class="top">
-                <img src="../img/indexImg/productImg/grhuli01.jpg" alt="" data-big="../img/indexImg/productImg/grhuli01.jpg">
+                <!-- <img src="../img/indexImg/productImg/grhuli01.jpg" alt="" data-big="../img/indexImg/productImg/grhuli01.jpg"> -->
             </div>
             
+
             <div class="bom">
                 <ul>
                     <li>分享：</li>
@@ -883,16 +887,16 @@
 
             <!--（2商品价格）-->
             <div class="delTwo delt">
-                <p><label>价格：</label><span class="price">￥42.02</span></p>
-                <p><label>活动价：</label><span class="active">AU$7.50</span></p>
+                <p><label>价格：</label>￥<span class="price"></span></p>
+                <p><label>活动价：</label>￥<span class="active"></span></p>
             </div>
 
 
               <!--（3）-->
               <div class="delThree delt">
-                    <p><label>运　　费：</label><span class="">首重35元/500g，续重20元/500g；详细运费计算请</span></p>
+                    <p><label>运　　费：</label><span class="">首重35元/<span class="weight"></span>，续重20元/<span class="weight"></span>；详细运费计算请</span><a href="http://www.haituncun.com/helper/faq/shipping-costs/">点击查看</a></p>
                     <p><label>服　　务：</label><span>澳洲直邮</span></p>
-                    <p><label>数　　量：</label><input type="number" value="1">限购<span class="price">5</span>件</p>
+                    <p><label>数　　量：</label><input type="number" value="1" class="num">限购<span class="price">5</span>件</p>
               </div>
 
             <!--4（加入购物车）-->
@@ -1366,12 +1370,30 @@
 <!-- <div class="bbb"></div> -->
 
 
+<div class="ceng">
+<div class="zhezhao"></div>
+<div id="win">
+    <h2><span id="close">×</span></h2>
+    <ul>
+        <li>商品已成功添加到购物车</li>
+        <li>购物车一共有
+            <span class="count"></span>件商品</li>
+        <li>
+            <p class="easyDialog_footer">
+                <button class="btn_normal" id="easyDialogNoBtn">继续购物</button>
+                <button class="btn_highlight" id="easyDialogYesBtn">去购物车结算</button>
+            </p>
+        </li>
+    
+    </ul>
+</div>
+
+
+</div>
+
+
+
     </div>
-
-
-
-
-
 
 </body>
 </html>
