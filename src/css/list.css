@@ -1,7 +1,7 @@
-.bbbb{
+/* .bbbb{
     height: 2000px;
     border:2px solid blue;
-}
+} */
 
  /* #overlay{position:absolute;top:0;left:0;width:100%;height:2000px;background:#000;opacity:0.5;filter:alpha(opacity=50);display:none;} */
 
@@ -190,7 +190,7 @@ border: 2px solid #EDEDED;
 .list .xgleimu .five_Right .rightTop h2{
     height:36px;
     line-height: 36px;
-    background: #F6F6F6;
+    background: #FCFCFC;
 }
 
 
@@ -198,7 +198,7 @@ border: 2px solid #EDEDED;
    width: 230px;
    height: 120px;
    margin-left: 10px;
-   border:1px solid red;
+   /* border:1px solid red; */
    float: left;
 }
 
@@ -207,7 +207,7 @@ border: 2px solid #EDEDED;
  }
  .list .xgleimu .five_Right .rightTop ul li .dvimg img{
     width: 100px;
-    height: 120px;
+    /* height: 120px; */
  }
 
  .list .xgleimu .five_Right .rightTop ul li dl{
@@ -315,7 +315,7 @@ border: 2px solid #EDEDED;
 .list .xgleimu .five_Right .rightCenter .centerTwo .twoC{
     height: 36px;
     width: 558px;
-    border:1px solid black;
+    /* border:1px solid black; */
     float: left;
 
 }
@@ -323,6 +323,7 @@ border: 2px solid #EDEDED;
 .list .xgleimu .five_Right .rightCenter .centerTwo .twoC .input-group{
     width: 200px;
    float: left;
+   line-height: 36px;
 }
 
 
@@ -345,7 +346,7 @@ border: 2px solid #EDEDED;
     width: 72px;
     line-height: 36px;
     text-align: center;
-    border:1px solid black;
+    /* border:1px solid black; */
     float: left;
 }
 
@@ -364,15 +365,18 @@ border: 2px solid #EDEDED;
 .list .xgleimu .five_Right .productlist ul li{
     width:232px;
     height: 358px;
-    border:1px solid black;
+    /* border:1px solid black; */
     float: left;
     margin-bottom: 15px;
+    background: #fff;
+    margin-left: 8px;
 }
 
 
 .list .xgleimu .five_Right .productlist ul li .pimg img{
     height: 192px;
-    background: lightblue;
+    width: 208px;
+    /* background: lightblue; */
    
 }
 
@@ -381,7 +385,7 @@ border: 2px solid #EDEDED;
 /*-------（dl）--------*/
 .list .xgleimu .five_Right .productlist ul li dl{
     height: 132px;
-    background: lightcyan;
+    /* background: lightcyan; */
     padding-top:32px;
     position: relative;
 

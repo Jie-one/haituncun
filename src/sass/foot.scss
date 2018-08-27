@@ -1,0 +1,86 @@
+//colors
+$color_mine_shaft_approx: #333333;
+$white: #ffffff;
+$color_cerulean_approx: #00aeed;
+$color_mountain_mist_approx: #999999;
+
+.haitun .ht_bottom {
+	height: 276px;
+	.ht_container {
+		height: 276px;
+	}
+	.bottomTop {
+		height: 182px;
+		margin-bottom: 2px;
+		.btCenter {
+			height: 152px;
+			width: 920px;
+			float: left;
+			ul {
+				height: 152px;
+				width: 176px;
+				float: left;
+				padding-left: 30px;
+				li {
+					padding: 5px 10px;
+					a {
+						color: $color_mine_shaft_approx;
+					}
+					h2 {
+						font-weight: bold;
+					}
+				}
+			}
+		}
+		.btLeft {
+			height: 152px;
+			width: 146px;
+			float: left;
+			ul li {
+				&:nth-child(1) {
+					padding-bottom: 26px;
+				}
+				&:nth-child(2) input {
+					height: 30px;
+					width: 100px;
+					color: $white;
+					background: $color_cerulean_approx;
+				}
+			}
+		}
+		.btRight {
+			height: 152px;
+			width: 114px;
+			float: left;
+			padding-left: 10px;
+			h2 {
+				padding: 6px 0;
+			}
+		}
+	}
+	.bom {
+		padding-top: 30px;
+	}
+	.bottomFoter {
+		height: 92px;
+		margin-bottom: 2px;
+		padding-left: 138px;
+		p {
+			text-align: center;
+			a {
+				color: $color_mountain_mist_approx;
+			}
+		}
+		.bf {
+			height: 72px;
+			li {
+				width: 130px;
+				height: 72px;
+				float: left;
+			}
+		}
+	}
+	li a {
+		color: $color_mine_shaft_approx;
+	}
+}

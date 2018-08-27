@@ -1,0 +1,210 @@
+//colors
+$color_cerulean_approx: #0099e6;
+$white: #ffffff;
+$color_lochmara_approx: #0086d4;
+$color_moon_mist_approx: #dfdfd0;
+$color_fuscous_gray_approx: #555555;
+$color_desert_storm_approx: #f8f8f8;
+$color_alice_blue_approx: #f1fafd;
+$color_havelock_blue_approx: #5292d0;
+$color_storm_dust_approx: #666666;
+$color_mercury_approx: #e6e6e6;
+
+.category {
+	background: $white;
+}
+.haitun .htnav {
+	height: 39px;
+	background: $color_cerulean_approx;
+	.ht_container {
+		height: 39px;
+	}
+	.tab1 {
+		.tb1li {
+			float: left;
+			position: relative;
+			.tb1a {
+				font-size: 14px;
+				line-height: 39px;
+				color: $white;
+			}
+			.tab2 {
+				width: 220px;
+				height: 420px;
+				background: $color_alice_blue_approx;
+				position: absolute;
+				left: 0;
+				top: 39px;
+				z-index: 10;
+				.tab2li {
+					.tab2div {
+						height: 60px;
+						padding-top: 10px;
+						padding-left: 30px;
+						border-bottom: 2px solid $color_mercury_approx;
+						position: relative;
+						font-size: 12px;
+						span {
+							position: absolute;
+							left: 8px;
+							top: 8px;
+						}
+						p a {
+							color: $color_storm_dust_approx;
+						}
+					}
+					.tab3 {
+						width: 770px;
+						height: 420px;
+						padding: 20px 30px 0;
+						position: absolute;
+						left: 220px;
+						top: 0;
+					}
+					.iconfont h2 {
+						color: $color_havelock_blue_approx;
+						margin-bottom: 6px;
+						font-size: 16px;
+					}
+				}
+				.tab2lib:hover .category02 {
+					display: block;
+				}
+				.tab2lic:hover .category03 {
+					display: block;
+				}
+				.tab2lid:hover .category04 {
+					display: block;
+				}
+				.tab2lie:hover .category05 {
+					display: block;
+				}
+				.tab2lif:hover .category06 {
+					display: block;
+				}
+			}
+		}
+		.tab1lia {
+			width: 220px;
+			height: 39px;
+			background: $color_lochmara_approx;
+		}
+		.tab1lib {
+			width: 770px;
+			height: 39px;
+			background: $color_cerulean_approx;
+			ul {
+				li {
+					float: left;
+				}
+				.oz {
+					position: relative;
+					height: 39px;
+					.dvoz {
+						position: absolute;
+						width: 210px;
+						height: 144px;
+						padding-left: 15px;
+						right: -118px;
+						background: $white;
+						display: none;
+						dl {
+							height: 72px;
+							border-bottom: 2px solid $color_moon_mist_approx;
+							a {
+								color: $color_fuscous_gray_approx;
+							}
+						}
+					}
+					&:hover .dvoz {
+						display: block;
+					}
+				}
+				.aozhou {
+					position: relative;
+					height: 39px;
+					.dvaozhou {
+						position: absolute;
+						height: 84px;
+						width: 210px;
+						padding-left: 15px;
+						right: -118px;
+						background: $white;
+						display: none;
+						dl a {
+							color: $color_fuscous_gray_approx;
+						}
+					}
+					&:hover .dvaozhou {
+						display: block;
+					}
+				}
+				.yazhou {
+					position: relative;
+					height: 39px;
+					.dvyazhou {
+						position: absolute;
+						height: 60px;
+						width: 210px;
+						padding-left: 15px;
+						right: -118px;
+						background: $white;
+						display: none;
+						dl a {
+							color: $color_fuscous_gray_approx;
+						}
+					}
+					&:hover .dvyazhou {
+						display: block;
+					}
+				}
+				dl dt {
+					height: 30px;
+					list-style: 30px;
+					color: $color_cerulean_approx;
+				}
+			}
+			a {
+				padding: 0 22px;
+			}
+		}
+		.tab1lic {
+			width: 200px;
+			height: 39px;
+			background: $color_cerulean_approx;
+			position: relative;
+			.tab1lic_ul {
+				position: absolute;
+				top: 39px;
+				right: 0;
+				width: 200px;
+				height: 420px;
+				background: $color_desert_storm_approx;
+				z-index: 10;
+				a {
+					height: 210px;
+					width: 200px;
+					display: block;
+					img {
+						height: 206px;
+						width: 200px;
+					}
+				}
+				.lia {
+					margin-bottom: 2px;
+				}
+			}
+			.tb1a span {
+				font-size: 20px;
+			}
+		}
+		.tab2 {
+			.tab2li:hover {
+				background: $white;
+			}
+			.tab2lia:hover .category01 {
+				display: block;
+			}
+		}
+	}
+}

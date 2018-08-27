@@ -226,4 +226,15 @@ jQuery(function ($) {
     }
 
 
+
+    // Cookie.set("goodslist")
+    //  【购物车数量显示】
+    var glcookie = Cookie.get('goodslist');
+  
+console.log(glcookie);
+
+
+
+
+
 });

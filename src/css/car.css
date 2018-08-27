@@ -1,8 +1,8 @@
 
-.car .bbb{
+/* .car .bbb{
     height: 500px;
     border:2px solid blue;
-}
+} */
 
 
 .car .headTwo .two_wuliu {
@@ -20,7 +20,7 @@
 .car .car_gwc .gwc_top {
   height: 26px;
   border-bottom: 2px solid #00a4ed;
-  background: lightblue;
+  /* background: lightblue; */
 }
 
 .car .car_gwc .gwc_top p {
@@ -37,15 +37,11 @@
 
 /*---------02（购物车商品）--------*/
 .car .car_gwc table {
-  background: lightpink;
+  /* background: lightpink; */
   width: 1190px;
   height: 100%;
 }
 
-.car .car_gwc table tr {
-  /* background: #FFFFFF; */
-  background: lightcyan;
-}
 
 .car .car_gwc table tr th .checkAll {
   height: 16px;
@@ -54,9 +50,9 @@
 
 /*----------【thead】-------*/
 .car .car_gwc table thead tr {
-  /* background: #FFFFFF; */
+  background: #FFFFFF;
   height: 40px;
-  background: lightcyan;
+  /* background: lightcyan; */
 }
 
 .car .car_gwc table thead {
@@ -65,7 +61,7 @@
 
 /*----------【tbody】-------*/
 .car .car_gwc table tbody tr {
-  background: lightpink;
+  background: #ffffff;
   border-bottom: 1px dashed gray;
 }
 
@@ -104,7 +100,7 @@
   float: left;
   width: 405px;
   height: 70px;
-  background: lemonchiffon;
+  /* background: lemonchiffon; */
 }
 
 
@@ -113,7 +109,7 @@
   float: right;
   /* width: 520px; */
   height: 70px;
-  background: lightcyan;
+  /* background: lightcyan; */
 }
 
 

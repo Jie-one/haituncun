@@ -1,0 +1,359 @@
+//colors
+$color_black_haze_approx: #f6f6f6;
+$color_mountain_mist_approx: #999999;
+$color_alabaster_approx: #fcfcfc;
+$color_gallery_approx: #ededed;
+$white: #ffffff;
+$black:  black;
+$silver: #c0c0c0;
+$color_storm_dust_approx: #666666;
+$alabaster: #fafafa;
+$color_coral_red_approx: #ff4444;
+$color_suva_gray_approx: #888888;
+$color_cerulean_approx: #009de0;
+$color_log_cabin_approx: #222222;
+$color_lochmara_approx: #007acc;
+$color_red_orange_approx: #ff3333;
+$color_mine_shaft_approx: #333333;
+$red:  red;
+$tan: tan;
+
+//urls
+$url_0: url(../img/listImg/dian.png);
+
+.list {
+	.list_four {
+		height: 44px;
+		background: $color_black_haze_approx;
+		line-height: 44px;
+		.ht_container {
+			height: 44px;
+		}
+		ul {
+			position: relative;
+			padding-left: 16px;
+			height: 44px;
+			font-size: 14px;
+			a {
+				color: $color_mountain_mist_approx;
+			}
+			span {
+				position: absolute;
+				left: 0;
+				top: 0;
+				font-size: 14px;
+			}
+			li {
+				float: left;
+			}
+		}
+	}
+	.xgleimu {
+		background: $color_black_haze_approx;
+		padding-bottom: 50px;
+		overflow: hidden;
+		.five_Right {
+			width: 960px;
+			background: $color_black_haze_approx;
+			float: right;
+			.rightTop {
+				width: 960px;
+				height: 156px;
+				background: $white;
+				h2 {
+					height: 36px;
+					line-height: 36px;
+					background: $color_alabaster_approx;
+				}
+				ul li {
+					width: 230px;
+					height: 120px;
+					margin-left: 10px;
+					float: left;
+					.dvimg {
+						float: left;
+						img {
+							width: 100px;
+						}
+					}
+					dl {
+						float: right;
+						width: 122px;
+						height: 120px;
+						font-size: 12px;
+					}
+					.price {
+						color: $color_coral_red_approx;
+						line-height: 34px;
+						font-weight: bold;
+					}
+					.buy {
+						width: 78px;
+						height: 22px;
+						background: $color_coral_red_approx;
+						color: $white;
+						line-height: 22px;
+						text-align: center;
+					}
+				}
+			}
+			.rightCenter {
+				width: 960px;
+				height: 236px;
+				background: $white;
+				margin-top: 10px;
+				.centerOne {
+					width: 960px;
+					height: 168px;
+					background: $white;
+					.dvone {
+						height: 42px;
+						line-height: 42px;
+						border-top: 2px dashed $color_black_haze_approx;
+						font-size: 12px;
+						.jieduan {
+							width: 65px;
+							height: 42px;
+							font-weight: bold;
+							border-right: 2px dashed $color_black_haze_approx;
+						}
+						li {
+							width: 134px;
+							height: 42px;
+							padding-left: 20px;
+							float: left;
+							a {
+								color: $color_suva_gray_approx;
+							}
+						}
+					}
+				}
+				.centerTwo {
+					height: 70px;
+					padding-top: 35px;
+					.twoL {
+						height: 36px;
+						width: 328px;
+						margin-left: 2px;
+						float: left;
+						li {
+							height: 36px;
+							width: 82px;
+							line-height: 36px;
+							border: 2px solid $color_black_haze_approx;
+							float: left;
+							text-align: center;
+							a {
+								color: $color_log_cabin_approx;
+							}
+						}
+						.tuijian {
+							background: $color_cerulean_approx;
+							a {
+								color: $color_black_haze_approx;
+							}
+						}
+					}
+					.twoC {
+						height: 36px;
+						width: 558px;
+						float: left;
+						.input-group {
+							width: 200px;
+							float: left;
+							line-height: 36px;
+						}
+						.amount {
+							width: 174px;
+							height: 36px;
+							float: right;
+							line-height: 36px;
+						}
+						.pager-num {
+							color: $color_lochmara_approx;
+							font-weight: bold;
+						}
+					}
+					.twoR {
+						height: 36px;
+						width: 72px;
+						line-height: 36px;
+						text-align: center;
+						float: left;
+					}
+				}
+			}
+			.productlist {
+				height: 100%;
+				margin-top: 15px;
+				ul {
+					li {
+						width: 232px;
+						height: 358px;
+						float: left;
+						margin-bottom: 15px;
+						background: $white;
+						margin-left: 8px;
+						dl {
+							height: 132px;
+							padding-top: 32px;
+							position: relative;
+							.price {
+								color: $color_red_orange_approx;
+								font-weight: bold;
+								font-size: 16px;
+							}
+							a {
+								color: $color_mine_shaft_approx;
+							}
+							.cart {
+								background: $color_red_orange_approx;
+								height: 30px;
+								width: 206px;
+								line-height: 30px;
+								text-align: center;
+								display: none;
+								position: absolute;
+								bottom: 0;
+								a {
+									color: $color_black_haze_approx;
+								}
+							}
+						}
+						&:hover {
+							dl {
+								//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+								transition: all 1s;
+								padding-top: 8px;
+								.cart {
+									display: block;
+								}
+							}
+							.item {
+								border: 1px solid $red;
+							}
+						}
+						.item {
+							padding-left: 12px;
+							padding-right: 12px;
+						}
+						.contry {
+							height: 33px;
+							line-height: 33px;
+							background: $tan;
+							.pl {
+								float: left;
+								padding-left: 18px;
+								position: relative;
+								span {
+									width: 16px;
+									height: 16px;
+									background-image: $url_0;
+									position: absolute;
+									left: 0;
+									top: 8px;
+								}
+							}
+							.pr {
+								float: right;
+							}
+						}
+						.pimg img {
+							height: 192px;
+							width: 208px;
+						}
+					}
+					.pa {
+						margin-left: 10px;
+					}
+				}
+			}
+		}
+	}
+	.htnav .tab1 {
+		.tb1li {
+			.tab2 {
+				display: none;
+			}
+			&:hover .tab2 {
+				display: block;
+			}
+		}
+		.tab1lic {
+			border: none;
+			.tab1lic_ul {
+				display: none;
+			}
+			&:hover .tab1lic_ul {
+				display: block;
+			}
+		}
+	}
+}
+.xgleimu .five_Left {
+	float: left;
+	background: $white;
+	h2 {
+		height: 36px;
+		width: 220px;
+		background: $color_alabaster_approx;
+		line-height: 36px;
+		border-bottom: 2px solid $color_gallery_approx;
+	}
+	.fiveleft {
+		width: 220px;
+		height: 100%;
+		border: 1px solid $black;
+		margin-bottom: 10px;
+	}
+	.leftOne {
+		border: 2px solid $silver;
+		.ulone_a {
+			.ulone_b {
+				padding-left: 15px;
+			}
+			.litwo input {
+				height: 26px;
+				width: 190px;
+				line-height: 26px;
+				background: $alabaster;
+				border: 2px solid $color_gallery_approx;
+			}
+		}
+		.ulone_b li a {
+			color: $color_storm_dust_approx;
+		}
+	}
+	.ulone_a {
+		padding: 0 15px 24px;
+	}
+	.leftTwo {
+		border: 2px solid $silver;
+		ul {
+			height: 404px;
+			li {
+				width: 90px;
+				height: 70px;
+				float: left;
+				border: 1px solid $color_gallery_approx;
+				margin-top: 2px;
+				margin-left: 2px;
+				img {
+					width: 90px;
+					height: 70px;
+				}
+			}
+			.dvbtn {
+				width: 90px;
+				height: 30px;
+				margin-top: 6px;
+				border: none;
+				margin-left: 50px;
+				span {
+					margin-left: 20px;
+					font-weight: bold;
+				}
+			}
+		}
+	}
+}
